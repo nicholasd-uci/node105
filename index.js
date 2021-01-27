@@ -1,15 +1,16 @@
 // These are Constructors
-let greeting = 'Hello world'
-let greeting = new String('Hello world!')
+    // let greeting = 'Hello world'
+    // let greeting = new String('Hello world!')
 
-let num = 5
-let num = new Number(5)
+    // let num = 5
+    // let num = new Number(5)
 
-let bool = true
-let bool = new Boolean(false)
+    // let bool = true
+    // let bool = new Boolean(false)
 
+// 1 of 3 methods on how to build 'Constructor'
 // 1. Original Build For Constructors In JavaScript
-//      - Have To Use "This" In Constructors
+//      - Have To Use 'This' when using 'Constructors'
 
 function Animal (name, type, age, sound) {
     this.name = name
@@ -17,6 +18,12 @@ function Animal (name, type, age, sound) {
     this.age = age
     this.sound = sound
 }
+
+let gerald = new Animal ('Gerald', 'cow', 5, 'moo')
+let carlos = new Aninmal ('carlso', 'zebra', 6, 'weeee')
+
+console.log(gerald)
+console.log(carlos)
 
 
 // 2. Factory Function 
