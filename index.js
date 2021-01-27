@@ -9,7 +9,8 @@
     // let bool = new Boolean(false)
 
 // 1 of 3 methods on how to build 'Constructor'
-// 1. Original Build For Constructors In JavaScript
+
+// 1. Original Build 
 //      - Have To Use 'This' when using 'Constructors'
 
 function Animal (name, type, age, sound) {
@@ -19,8 +20,8 @@ function Animal (name, type, age, sound) {
     this.sound = sound
 }
 
-let gerald = new Animal ('Gerald', 'cow', 5, 'moo')
-let carlos = new Aninmal ('carlso', 'zebra', 6, 'weeee')
+let gerald = new Animal ('Gerald', 'cow', 5, 'moooo')
+let carlos = new Animal ('carlso', 'zebra', 6, 'weeee')
 
 console.log(gerald)
 console.log(carlos)
