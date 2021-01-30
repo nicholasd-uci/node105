@@ -44,6 +44,10 @@ function Movie (title, director, plot) {
 
 // this will be the class constrcutors for teachers section
 
+student extends class teachers {
+
+}
+
 //  here we will make students
 
 
