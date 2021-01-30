@@ -42,5 +42,9 @@ function Movie (title, director, plot) {
 
 // 3. Class Constructors
 
+// this will be the class constrcutors for teachers section
+
+//  here we will make students
+
 
 
