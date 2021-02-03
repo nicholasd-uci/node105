@@ -16,5 +16,6 @@ class Mather {
       return this.a / this.b
     }
   }
+  
   module.exports = Mather
 
