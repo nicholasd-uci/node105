@@ -48,15 +48,20 @@ theRoom.printInfo()
 
 
 // 2. Factory Function 
+// Hands you back an 'Object' this method is not considered "Constructors"
+//          - we do no use "this" 
 
+const person = (name, age, email, address) => ({ name, age, email, address })
+
+let john = person('john', 47, 'john@yahoo.com', '123 wouth st' )
+
+console.log(john)
 
 
 // 3. Class Constructors
 
 
-student extends class teachers {
 
-}
 
 
 
