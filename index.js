@@ -87,7 +87,45 @@ console.log(john)
 
 // 3. Class Constructors
 
+class Person {
+    constructor(name, age, email, address) {
+        this.name = name
+        this.age = age
+        this.email = email
+        this.address = address
+    }
+    printName () {
+        console.log(this.name)
+    }
+}
 
+
+class Student extends Person {
+    constructor (name, age, email, address, grade, gpa) {
+        super(name, age, email, address)
+        this.grade = grade
+        this.gps = gpa
+    }
+}
+let jack = new Student('Jack', 18, 'jackjack@gmail.com', '1324 st side', 12, 2.9)
+
+jack.printName()
+console.log(jack)
+
+
+class Teacher extends Person{
+    constructor(name, age, email, address, subject, room) {
+        super(name, age, email, address)
+        this.subject = subject
+        this.room = room
+    }
+}
+
+let smith = new Teacher('smith', 50, 'smith@gmail.com', '555 st st', 'PE', 'Room 444')
+console.log(smith)
+
+let john = new Person('John', 47, 'john@gmail.com','1234 st lowkey')
+console.log(john)
 
 
 
