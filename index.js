@@ -96,6 +96,9 @@ class Person {
     }
 }
 
+let john = new Person('John', 47, 'john@gmail.com','1234 st lowkey')
+console.log(john)
+
 
 class Student extends Person {
     constructor (name, age, email, address, grade, gpa) {
@@ -104,6 +107,7 @@ class Student extends Person {
         this.gps = gpa
     }
 }
+
 let jack = new Student('Jack', 18, 'jackjack@gmail.com', '1324 st side', 12, 2.9)
 
 jack.printName()
@@ -121,8 +125,6 @@ class Teacher extends Person{
 let smith = new Teacher('smith', 50, 'smith@gmail.com', '555 st st', 'PE', 'Room 444')
 console.log(smith)
 
-let john = new Person('John', 47, 'john@gmail.com','1234 st lowkey')
-console.log(john)
 
 
 
