@@ -109,9 +109,7 @@ class Student extends Person {
 }
 
 let jack = new Student('Jack', 18, 'jackjack@gmail.com', '1324 st side', 12, 2.9)
-
 jack.printName()
-console.log(jack)
 
 
 class Teacher extends Person{
