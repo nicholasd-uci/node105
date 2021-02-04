@@ -78,8 +78,8 @@ const teacher = (name, age, email, address, subject, room) => ({
 let jack = student('Jack', 18, 'jack@gmail.com', '123 South St', 12, 3.8)
 jack.printInfo()
 
-let dohn = teacher('dohn', 47, 'dohn@gmail.com', '234 Main St', 'English', 407)
-console.log(jack, dohn)
+let john = teacher('John', 47, 'John@gmail.com', '234 Main St', 'English', 407)
+console.log(jack, john)
 
 
 // 3. Class Constructors
@@ -95,10 +95,8 @@ class Person {
         console.log(this.name)
     }
 }
-
 let john = new Person('John', 47, 'john@gmail.com','1234 st lowkey')
 console.log(john)
-
 
 class Student extends Person {
     constructor (name, age, email, address, grade, gpa) {
@@ -107,10 +105,8 @@ class Student extends Person {
         this.gps = gpa
     }
 }
-
 let jack = new Student('Jack', 18, 'jackjack@gmail.com', '1324 st side', 12, 2.9)
 jack.printName()
-
 
 class Teacher extends Person{
     constructor(name, age, email, address, subject, room) {
@@ -119,7 +115,6 @@ class Teacher extends Person{
         this.room = room
     }
 }
-
 let smith = new Teacher('smith', 50, 'smith@gmail.com', '555 st st', 'PE', 'Room 444')
 console.log(smith)
 
