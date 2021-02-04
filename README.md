@@ -3,7 +3,12 @@
 ## About
 
 ```
-    In this repository we focus on 3 main types of Constructors. We give example of what a Constructor is and three examples of how the Original Build for Constructors are made. We then move onto a Factory Function Constructor as well as Class Constructors. This helps use with big data or application that will consist of lots of information. 
+In this repository we focus on 3 main types of Constructors. 
+We give example of what a Constructor is and three examples.
+    - Original Build for Constructors 
+    - Factory Function Constructor 
+    - Class Constructors. 
+This helps use with big data or application that will consist of a large amount of information. 
 ```
 
 - - -
@@ -22,7 +27,6 @@
 
 ![results1](./photos/results1.png)
 
-- - -
 
 ## 2. Factory Functions
 
