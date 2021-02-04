@@ -48,8 +48,8 @@ theRoom.printInfo()
 
 
 // 2. Factory Function 
-// Hands you back an 'Object' this method is not considered "Constructors"
-//          - we do no use "this" 
+//   - Hands you back an 'Object' this method is not considered "Constructors"
+//   - we do no use "this." 
 
 const person = (name, age, email, address) => ({ name, age, email, address })
 
@@ -80,9 +80,6 @@ jack.printInfo()
 
 let dohn = teacher('dohn', 47, 'dohn@gmail.com', '234 Main St', 'English', 407)
 console.log(jack, dohn)
-
-let john = person('John', 47, 'john@gmail.com', '123 Main St')
-console.log(john)
 
 
 // 3. Class Constructors
