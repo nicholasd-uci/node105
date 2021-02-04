@@ -30,15 +30,30 @@ This helps use with big data or application that will consist of a large amount 
 
 ## 2. Factory Functions
 
-- - -
+> In this section we go over how a Factory Function can make coding easier.
+
+***Details***
+
+![factoryFuntDetails](./photos/factoryFuntDetails.png)
+
+***Example One***
+
+![spreadOp](./photos/spreadOp.png)
+
 
 ## 3. Class Constructors 
 
+> In this section we go over the classes and extending those classes
+
+***Example One*** 
+
+![classConstructor](./photos/classConstructor.png)
 
 ## LINKS
 
 - [GitHub Repo Link](https://github.com/nicholasd-uci/node105)
 - [Nicholas Dallas's GitHub](https://github.com/nicholasd-uci)
+
 
 - - -
 © 2020 NPRD, Nicholas Paul Ruiz Dallas
